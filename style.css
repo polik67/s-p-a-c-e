@@ -114,6 +114,29 @@ body {
 }
 
 
+.u {
+	max-width: 10%;
+	position: absolute;
+	left: 250px;
+	top: 1550px;
+}
+
+
+#move2 .u {
+	transform: translate(50px, -200px);
+	transition: 2s;
+
+
+}
+/*
+.ufo2 {
+	max-width: 20%;
+	position: absolute;
+	left: 1400px;
+	top: 1650px;
+}
+
+*/
 
 
 

@@ -61,6 +61,26 @@ function move() {
 
 
 
+var ufo = document.querySelector('.ufo')
+
+p2.addEventListener('click', move2)
+
+
+
+
+function move2() {
+	console.log('it works')
+	
+	if (p2.id != 'move') {
+		ufo.id = 'move2'
+	} else {
+		ufo.id = 'move2'
+	}
+
+}
+
+
+
 
 
 
