@@ -7,6 +7,8 @@ body {
 	padding: 0;
 	background-color: #200968;
 }
+
+
 #layer1 {
 	max-width: 100%;
 	height: auto;
@@ -14,18 +16,23 @@ body {
 }
 
 #layer2 {
-	max-width: 100%;
+	max-width: 300%;
 	height: auto;
 	position: absolute;
+	left: -105%;
+	top: -100%;
+	 
 }
 
 #layer3 {
-	max-width: 100%;
+	max-width: 200%;
 	height: auto;
 	position: absolute;
+	left: -50%;
+	top: -50%;
 }
 
-
+ 
 
 .planet1 {
 	max-width: 20%;
@@ -37,7 +44,6 @@ body {
 }
 
 #rotate .planet1 {
-	
 	left: 1400px;
 	top: 1650px;
 	transition: 4s;
@@ -77,4 +83,49 @@ body {
 	transition: 2s;
 
 }
+
+
+
+.parallax {
+  perspective: 1px;
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+
+}
+.parallax__layer {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.parallax__layer--base {
+  transform: translateZ(0);
+}
+
+.parallax__layer--back {
+  transform: translateZ(-1px);
+ }
+
+
+.parallax__layer--mid {
+  transform: translateZ(-2px);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
